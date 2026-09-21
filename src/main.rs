@@ -1,5 +1,4 @@
-//! A tiny RV32I emulator: a starting point for a reference model
-//! you can later compare against your Kestrel RTL.
+//! A tiny RV32I emulator
 
 struct Cpu {
     regs: [u32; 32],
@@ -107,7 +106,7 @@ impl Cpu {
     }
 }
 
-// --- Tiny "assembler" helpers so you can write test programs in Rust ---
+// --- Assembler to write in Rust
 
 fn i_type(imm: i32, rs1: u32, funct3: u32, rd: u32, opcode: u32) -> u32 {
     (((imm as u32) & 0xfff) << 20) | (rs1 << 15) | (funct3 << 12) | (rd << 7) | opcode
