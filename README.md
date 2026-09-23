@@ -43,7 +43,7 @@ Running it prints: halted after 31 instructions
 Requires [Rust](https://rustup.rs).
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/rv32-emu.git
+git clone https://github.com/humoudalharthy/rv32-emu.git
 cd rv32-emu
 cargo run
 ```
