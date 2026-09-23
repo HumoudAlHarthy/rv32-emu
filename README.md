@@ -1,6 +1,6 @@
 # rv32-emu
 
-A small RISC-V (RV32I) emulator written in Rust. It fetches, decodes, and executes RV32I instructions, and exists mainly as a reference model to check my [Kestrel](https://github.com/YOUR_USERNAME/kestrel) CPU core against.
+A small RISC-V (RV32I) emulator written in Rust. It fetches, decodes, and executes RV32I instructions, and exists mainly as a reference model to check my [Kestrel](https://github.com/humoudalharthy/kestrel) CPU core against.
 
 ## Why
 
